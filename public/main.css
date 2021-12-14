@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: rgb(34,149,195);
+background: linear-gradient(245deg, rgba(34,149,195,0.5956757703081232) 0%, rgba(221,45,253,0.38559173669467783) 70%);
+    text-align: center;
+    
+
+}
+
+
+.header {
+    margin: 2em 0;
+}
+
+h3, h4,p {
+    color: white;
+}
+
+.note-section > div {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.add_btn {
+    color:rgb(34,149,195) ;
+    border-color:rgba(34,149,195,0.5956757703081232) ;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.typingarea {
+    opacity: 0.7;
+    margin: 0 auto;
+    float: none;
+    border-radius: 20px;
+    border-color:rgba(34,149,195,0.5956757703081232) ;
+    border-width: 2px;
+}
+
+.note-section textarea {
+    width: 100%;
+    min-height: 200px;
+    
+}
+
+.note {
+    background: #ffffcc;
+    padding: 8px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px #efefef;
+    display: flex;
+   width: 30rem;
+   height: 15rem;
+   
+    border-radius: 20px;
+}
+
+
+
+#notes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    opacity: .9;
+  
+/*     display: flex;
+    flex-wrap: wrap;
+  width: 20vh;
+  margin: 20px; */
+}
+
+.note .input {
+    flex: 1;
+}
+
+.note .input textarea {
+    background: #fdfdd8;
+    border: solid 1px #ffffcc;
+}
+
+.note .input:hover textarea {
+    border: solid 1px #747435;
+    opacity: .8;
+}
+
+/*header saving */ 
+.saving {
+    font-size: 12px;
+    display: none;
+}
+
+/*remove button */
+.remove {
+    float: right;
+    padding: 0 0.375rem;
+    background: rgba(221,45,253,0.38559173669467783);
+    color: #fff;
+    height: 50px;
+    opacity: .9;
+    
+}
+
+.remove :hover {
+    color: rgba(21, 3, 24, 0.386);
+}
